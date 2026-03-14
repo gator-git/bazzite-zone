@@ -86,9 +86,9 @@ jobs:
 
       - name: Debug config file
         run: |
-        echo "CONFIG_FILE=${{ env.CONFIG_FILE }}"
-        ls -l "${{ env.CONFIG_FILE }}"
-        sed -n '1,40p' "${{ env.CONFIG_FILE }}"
+          echo "CONFIG_FILE=${{ env.CONFIG_FILE }}"
+          ls -l "${{ env.CONFIG_FILE }}"
+          sed -n '1,40p' "${{ env.CONFIG_FILE }}"
 
       - name: Build disk images
         id: build
