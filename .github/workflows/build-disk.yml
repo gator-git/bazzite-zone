@@ -83,7 +83,13 @@ jobs:
         uses: ublue-os/remove-unwanted-software@cc0becac701cf642c8f0a6613bbdaf5dc36b259e # v9
         with:
           remove-codeql: true
-  
+
+      - name: Debug config file
+        run: |
+        echo "CONFIG_FILE=${{ env.CONFIG_FILE }}"
+        ls -l "${{ env.CONFIG_FILE }}"
+        sed -n '1,40p' "${{ env.CONFIG_FILE }}"
+
       - name: Build disk images
         id: build
         uses: osbuild/bootc-image-builder-action@main
