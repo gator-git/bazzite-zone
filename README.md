@@ -13,17 +13,15 @@ The official Universal Blue image template: https://github.com/ublue-os/image-te
 Image Features:
 Integrated OpenZotacZone Drivers
 OpenZotacZone drivers are baked into the image and loaded automatically on boot.
-Zotac Zone specific features enabled:
-Back buttons
-Fully functional (P4/P3-like)
-Configurable via Steam Input.
+Zotac Zone specific features enabled: 
+Back buttons - Fully functional (P4/P3-like)
 RGB lighting
-Controllable via OpenRGB or an integrated lighting daemon, depending on configuration.
+Controllable via OpenRGB 
 Fan curves (EC fan control)
-Managed via CoolerControl with hardware-aware rules for quieter or more aggressive profiles.
+Managed via CoolerControl 
 Joystick dials
-Precise input via rotation and press, ideal for menus, emulators, and shortcuts.
-Extended HID protocol support so the dials show up properly in the system.
+Precise input via rotation and press
+Extended HID protocol 
 Additional improvements
 
 
