@@ -27,6 +27,6 @@ A custom Bazzite-based image makes these drivers persistent – they survive sys
 - Convenience:
   - Preinstalled Decky Loader & plugins
 
-## Build note
 
-Before rebuilding: rename `iso-gnome.toml` or `iso-kde.toml` to `iso.toml`, commit the change, then rebuild the image.
+User: zotac
+passwd: zotac <- pls change
